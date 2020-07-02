@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="29" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="29" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+      <class name="maven_project.maven_java.restassuredTest">
+        <test-method status="PASS" signature="restassuredTest1()[pri:0, instance:maven_project.maven_java.restassuredTest@56ef9176]" name="restassuredTest1" duration-ms="0" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restassuredTest1 -->
+        <test-method status="PASS" signature="restassuredTest2()[pri:0, instance:maven_project.maven_java.restassuredTest@56ef9176]" name="restassuredTest2" duration-ms="0" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- restassuredTest2 -->
+      </class> <!-- maven_project.maven_java.restassuredTest -->
+      <class name="maven_project.maven_java.appiumTest">
+        <test-method status="PASS" signature="appiumTest2()[pri:0, instance:maven_project.maven_java.appiumTest@4566e5bd]" name="appiumTest2" duration-ms="1" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumTest2 -->
+        <test-method status="PASS" signature="appiumTest1()[pri:0, instance:maven_project.maven_java.appiumTest@4566e5bd]" name="appiumTest1" duration-ms="0" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- appiumTest1 -->
+      </class> <!-- maven_project.maven_java.appiumTest -->
+      <class name="maven_project.maven_java.seleniumTest">
+        <test-method status="PASS" signature="browserAutomation2()[pri:0, instance:maven_project.maven_java.seleniumTest@13805618]" name="browserAutomation2" duration-ms="0" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation2 -->
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:maven_project.maven_java.seleniumTest@13805618]" name="browserAutomation" duration-ms="0" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+      </class> <!-- maven_project.maven_java.seleniumTest -->
+      <class name="maven_project.maven_java.AppTest">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:maven_project.maven_java.AppTest@cb644e]" name="shouldAnswerWithTrue" duration-ms="3" started-at="2020-06-30T18:10:57 IST" finished-at="2020-06-30T18:10:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- maven_project.maven_java.AppTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

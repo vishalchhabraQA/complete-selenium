@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Controlling the logs from configuration file in log4j either print logs in a logs file or in console, all logs or specific logs and logs with timestamp -->
+<Configuration status="WARN">
+  <Appenders> <!-- Where to log logs: Console or File -->
+    <Console name="Console" target="SYSTEM_OUT"> <!-- log in console -->
+      <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/> <!-- pattern of log -->
+    </Console>
+  </Appenders>
+  <Loggers> <!-- What to log --> <!--  additivity="false" to so that logs prints only once not multiple times -->
+  <Logger level="error" name="automation.log4j2.Demo" additivity="false"> <!-- applicable to a single class only and log errors only-->
+      <AppenderRef ref="Console"/> <!-- where and how to print -->
+    </Logger>
+    <Root level="error"> <!-- applicable to all and level="trace" means log everything -->
+      <AppenderRef ref="Console"/> <!-- where and how to print -->
+    </Root>
+  </Loggers>
+</Configuration>
